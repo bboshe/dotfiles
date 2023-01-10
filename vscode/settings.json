@@ -1,0 +1,64 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "notebook.output.textLineLimit": 50,
+    "editor.minimap.enabled": false,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindowMode": "perFile",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+
+    "vim.normalModeKeyBindingsNonRecursive":[
+        {
+            "before": ["2"],
+            "commands": ["workbench.action.focusPreviousGroup"]
+        }, 
+        {
+            "before": ["3"],
+            "commands": ["workbench.action.focusNextGroup"]
+        }, 
+        {
+            "before": ["8"],
+            "commands": ["workbench.action.previousEditor"]
+        }, 
+        {
+            "before": ["9"],
+            "commands": ["workbench.action.nextEditor"]
+        }, 
+        { "before": ["1"], "after" : [] }, 
+        { "before": ["4"], "after" : [] }, 
+        { "before": ["5"], "after" : [] },
+        { "before": ["6"], "after" : [] },
+        { "before": ["7"], "after" : [] },
+
+//        {
+//            "before": ["1"],
+//            "commands": ["workbench.action.focusFirstEditorGroup"]
+//        }, 
+//        {
+//            "before": ["2"],
+//            "commands": ["workbench.action.focusSecondEditorGroup"]
+//        }, 
+//        {
+//            "before": ["3"],
+//            "commands": ["workbench.action.focusThirdEditorGroup"]
+//        }, 
+//        {
+//            "before": ["4"],
+//            "commands": ["workbench.action.focusFourthEditorGroup"]
+//        }, 
+    ],
+    "remote.SSH.remotePlatform": {
+        "ws-innovation002": "linux"
+    },
+    "editor.fontSize": 13, 
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+    },
+    "vim.foldfix": true
+}
