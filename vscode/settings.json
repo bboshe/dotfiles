@@ -3,7 +3,6 @@
     "notebook.output.textLineLimit": 50,
     "editor.minimap.enabled": false,
     "jupyter.askForKernelRestart": false,
-    "jupyter.interactiveWindowMode": "perFile",
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
 
@@ -47,9 +46,6 @@
 //            "commands": ["workbench.action.focusFourthEditorGroup"]
 //        }, 
     ],
-    "remote.SSH.remotePlatform": {
-        "ws-innovation002": "linux"
-    },
     "editor.fontSize": 13, 
     "files.exclude": {
         "**/.git": true,
@@ -60,5 +56,15 @@
         "**/Thumbs.db": true,
         "**/__pycache__": true,
     },
-    "vim.foldfix": true
+    "vim.foldfix": true,
+    "autoDocstring.docstringFormat": "numpy",
+    "markdown.preview.fontSize": 13,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "hediet.vscode-drawio.resizeImages": null,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "editor.lineNumbers": "on",
+    "editor.peekWidgetDefaultFocus": "editor",
+    "workbench.colorTheme": "Default Dark+",
+    "gitlens.views.branches.branches.layout": "list"
 }
