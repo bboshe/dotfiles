@@ -47,5 +47,25 @@
         "key": "alt+f",
         "command": "editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "alt+p",
+        "command": "togglePeekWidgetFocus",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
     }
 ]
